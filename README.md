@@ -23,11 +23,11 @@ Requirements:
 
 -Use the reshape callback function discussed in class to handle window events.
 
--Create a display callback function that draws each graphic primitive using a different color. Points should be drawn with a larger pen size so they are visible. Do not overlap or intersect primitives within the viewport.
+-Create a display callback function that draws each graphic primitive using a different color. I use randomColor() to generate random color for each primitive on display(). 
 
 Improvements 
 
-- Draw a scene or object using most of the primitives.
+- Draw an object using most of the primitives which I use polygon to create.
 
 - Draw each primitive separately based on user input (let the user scroll through the primitives by hitting a key or the space bar.
 
